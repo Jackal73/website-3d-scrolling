@@ -1,0 +1,112 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header .content-box {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/img_1.png) center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu img {
+    height: 70px;
+    margin: 20px 0 0 30px;
+    cursor: pointer;
+}
+
+.menu button {
+    padding: 6px 30px;
+    background: #f13604;
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    /*border: 0;*/
+    right: 5%;
+    top: 5%;
+    border: #f13604;
+    transition: .2s ease-out;
+}
+
+.menu button:hover {
+    background: transparent;
+    border: 1px solid #f13604;
+    border-radius: 1px;
+}
+
+.menu button .fas {
+    margin-right: 5px;
+}
+
+.banner-text {
+    width: 80%;
+    color: #fff;
+    margin: 16% auto 0;
+    text-align: center;
+}
+
+.banner-text h2 {
+    margin-top: 50px;
+    font-size: 64px;
+}
+
+.banner-text p {
+    font-size: 20px;
+    margin: 20px 0 50px;
+}
+
+.banner-text a {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #f13604;
+    display: block;
+    padding: 10px;
+    width: 180px;
+    margin: auto;
+    background: #f13604;
+    transition: .2s;
+}
+
+.banner-text a:hover {
+    background: transparent;
+}
+
+/* ----- Services ----- */
+.content-box {
+    background-color: #f4f3ff;
+    height: 100vh;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1::after {
+    content: "";
+    background: #f13604;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 50px;
+}
+
+.service .icon {
+    font-size: 30px;
+    margin: 20px auto;
+    padding: 12px;
+    height: 70px;
+    width: 70px;
+    border: 1px solid #f13604;
+    border-radius: 50%;
+    color: #f13604;
+}
+
