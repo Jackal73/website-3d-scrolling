@@ -1,0 +1,11 @@
+{
+  "name": "website-3d-scrolling",
+  "version": "1.0.0",
+  "description": "Full website with 3D folding-scrolling effect.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jackal73",
+  "license": "ISC"
+}
