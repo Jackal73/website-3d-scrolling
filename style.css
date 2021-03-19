@@ -145,6 +145,51 @@ h1::after {
     color: #000;
 }
 
+/* ----- Features ----- */
+.feature h2 {
+    margin-top: 130px;
+}
+
+.feature h2::after {
+    content: "";
+    background: #f13604;
+    display: block;
+    height: 3px;
+    width: 100px;
+    margin: 10px auto 50px;
+    position: absolute;
+    left: 17px;
+}
+
+.feature ul {
+    margin-top: 30px;
+    margin-left: 50px;
+    list-style-type: none;
+}
+
+.feature ul li {
+    line-height: 40px;
+    font-size: 14px;
+    position: relative;
+}
+
+.feature ul li::after {
+    content: "";
+    height: 7px;
+    width: 7px;
+    background: #f13604;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 17px;
+    left: -25px;
+}
+
+.feature img {
+    margin-top: 130px;
+}
+
+
+
 
 
 
