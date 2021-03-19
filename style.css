@@ -76,6 +76,8 @@
 
 .banner-text a:hover {
     background: transparent;
+    color: #fff;
+    text-decoration: none;
 }
 
 /* ----- Services ----- */
@@ -99,7 +101,7 @@ h1::after {
     margin: 20px auto 50px;
 }
 
-.service .icon {
+.services .icon {
     font-size: 30px;
     margin: 20px auto;
     padding: 12px;
@@ -109,4 +111,61 @@ h1::after {
     border-radius: 50%;
     color: #f13604;
 }
+
+.services p {
+    font-size: 12px;
+    margin-top: 10px;
+    color: #777;
+    padding: 20px;
+}
+
+.services span {
+    color: #f13604;
+    transition: 0.2s;
+}
+
+.services .col-md-3:hover {
+    background: #f13604;
+    cursor: pointer;
+    color: #fff;
+    box-shadow: -5px 5px 10px 0 rgba(0, 0, 0, 0.4);
+    transition: 0.2s;
+}
+
+.services .col-md-3:hover .icon {
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.services .col-md-3:hover p {
+    color: #fff;
+}
+
+.services .col-md-3:hover span {
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
