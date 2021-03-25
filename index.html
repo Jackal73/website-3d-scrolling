@@ -13,7 +13,6 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        
         <script src="jquery.tiltedpage-scroll.js"></script>
         <link rel="stylesheet" href="tiltedpage-scroll.css">
 
@@ -157,7 +156,13 @@
                     </div>
                 </div>
             </section>
-
         </div>
+        <script> $(".main").tiltedpage_scroll({
+            sectionContainer: "> section",
+            angle: 50,
+            opacity: true,
+            scale: true,
+            outAnimation: true
+        });</script>
     </body>
 </html>
